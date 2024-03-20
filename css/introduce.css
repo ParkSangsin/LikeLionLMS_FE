@@ -1,0 +1,58 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'Dokrip';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Dokrip.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.name {
+    text-align: center;
+}
+.myName{
+    font-size: 50px;
+    font-family: "Dokrip";
+    font-weight: bold;
+}
+.myNickname{
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    font-family: "Dokrip";
+    font-weight: bold;
+}
+.pictures{
+    text-align: center;
+    flex-direction: row;
+}
+
+.me {
+    width: 400px;
+    height: 400px;
+    margin-right: 30px;
+}
+.we {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+}
+.click{
+    margin-top: 30px;
+    margin-right: 40px;
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+}
+.click_text{
+    color: red;
+}
+
+/* 키보드 커서 없애기 */
+* {
+    caret-color: transparent;
+}
