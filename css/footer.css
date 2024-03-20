@@ -29,17 +29,18 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 15px;
+    margin-bottom: 40px;
     color: white;
 }
 .footer_menus{
     display: flex;
     font-family: "Noto Sans KR";
+    font-size: 12px;
 }
 .managers{
     margin-bottom: 40px;
     text-decoration: none;
     color: #ffffff;
-
 }
 .KAU_likelion{
     margin-left: 183px;
